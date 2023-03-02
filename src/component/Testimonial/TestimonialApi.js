@@ -1,0 +1,61 @@
+const TestimonialApi = [
+  {
+    id: 1,
+    image: "./interests/3.png",
+    design: "Web 3.0",
+    name: "Semantic Web",
+    offcer: "Tim Berners-Lee",
+    post: "Semantic Web",
+    date: "Why the Semantic Web?",
+    desc: "The Semantic Web, sometimes known as Web 3.0 (not to be confused with Web3), is an extension of the World Wide Web through standards set by the World Wide Web Consortium (W3C). The goal of the Semantic Web is to make Internet data machine-readable.",
+  },
+  {
+    id: 2,
+    image: "./interests/2.png",
+    name: "Semantic Web Services & Technologies",
+    offcer: "Tim Berners-Lee",
+    post: "Semantic Web Services & Technologies",
+    date: "What are the basic building blocks of Semantic Web?",
+    desc: "Semantic Web doesn't make machines intelligent in the sense of Artificial Intelligence or Machine Learning. Instead of asking machines to understand humans, we help machines to solve well-defined problems on well-defined data via well-defined operations.",
+  },
+  {
+    id: 3,
+    image: "./interests/4.png",
+    design: "Web 3.0",
+    name: "Ontology",
+    offcer: "Tim Berners-Lee",
+    post: "Ontology",
+    date: "What is ontology?",
+    desc: "Ontology has a metaphysical meaning but in computer science it refers to a formal description of knowledge. Concepts and their relationships within a specific domain are described. Classes, attributes, and relations such as restrictions, rules and axioms are defined. These represent the knowledge of that domain.",
+  },
+  {
+    id: 4,
+    image: "./interests/6.jpg",
+    design: "Network",
+    name: "windows server, DNS, DHCP, Active Directory",
+    post: "Network",
+    date: "What is Network?",
+    desc: "A computer network is a system that connects two or more computing devices for transmitting and sharing information. Computing devices include everything from a mobile phone to a server. These devices are connected using physical wires such as fiber optics, but they can also be wireless.",
+  },
+  {
+    id: 5,
+    image: "./interests/8.jpg",
+    design: "Web 3.0",
+    name: "Semantic Interoperability",
+    offcer: "Tim Berners-Lee",
+    post: "Semantic Interoperability",
+    date: "What is Semantic Interoperability?",
+    desc: "Semantic interoperability is the ability of computer systems to exchange data with unambiguous, shared meaning. Semantic interoperability is a requirement to enable machine computable logic, inferencing, knowledge discovery, and data federation between information systems.",
+  },
+  {
+    id: 6,
+    image: "./interests/10.jpg",
+    name: "Network hardware: Network switch, Ethernet cables",
+    post: "CCNA (Routing and Switching)",
+    date: "What is CCNA routing and Switching??",
+    desc: "CCNA Routing and Switching focuses on network infrastructure, mainly routing and switching, but it also includes wireless access, security, and connectivity to branch offices using WAN. Achieving CCNA Routing and Switching. Certification.",
+  },
+ 
+]
+
+export default TestimonialApi

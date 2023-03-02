@@ -1,0 +1,115 @@
+.Contact {
+  /* height: 650px; */
+}
+.Contact .left {
+  width: 50%;
+  height: 650px;
+}
+.Contact .right {
+  width: 48%;
+  height: 650px;
+}
+.Contact .box {
+  padding: 15px;
+}
+
+.address ,.email ,.phone{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+ }
+.map{
+  margin: auto 10px !important;
+ }
+.map p{
+  padding-left: 5px;
+ }
+
+.map h3{
+ padding-left: 20px
+}
+.map i {
+  padding-right: ;
+  font-size: 20px;
+  color:  #ff014f;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #f3d2dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+  .address:hover i ,.email:hover i ,.phone:hover i
+  {
+  background:#ff014f;
+  color: #fff;
+}
+
+.Contact .details h1 {
+  margin: 20px 0 20px 0;
+  font-size: 35px;
+}
+.Contact .details p {
+  font-size: 17px;
+}
+.Contact .button {
+  margin-top: 20px;
+}
+.Contact button {
+  margin-right: 20px;
+}
+
+.Contact .right {
+  padding: 25px;
+}
+.Contact .input span {
+  font-size: 13px;
+}
+
+.Contact .right button {
+  width: 100%;
+}
+.Contact .right button span {
+ padding-left: 220px;
+}
+
+.Contact .right button:hover {
+  color: white;
+}
+.Contact .right button i {
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    /* margin-top: 50px; */
+  }
+ 
+}
+@media (max-width: 391px) {
+ .test {
+  width: 100%;
+ }
+ .Contact .right button span {
+  padding-left: 50px;
+ }
+ .map{
+  margin: auto auto !important;
+ }
+.map p{
+  padding-left: 0px;
+ }
+
+.map h3{
+ padding-left:5px
+}
+}
